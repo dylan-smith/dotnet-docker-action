@@ -1,5 +1,3 @@
 #!/bin/sh -l
 
-echo "Hello $1"
-time=$(date)
-echo ::set-output name=time::$time
+dotnet dist/dotnet-xplat-action.dll
