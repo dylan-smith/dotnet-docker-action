@@ -1,5 +1,4 @@
 #!/bin/sh -l
 
-pwd
-ls /
-dotnet /dotnet-xplat-action.exe
+dotnet build /src/dotnet-xplat-action.sln -c Release --output /dist/
+dotnet /dist/dotnet-xplat-action.dll
