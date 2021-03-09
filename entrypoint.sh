@@ -2,4 +2,4 @@
 
 pwd
 ls
-dotnet dist/dotnet-xplat-action.dll
+dotnet dotnet-xplat-action.dll
