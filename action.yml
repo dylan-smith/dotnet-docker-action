@@ -1,0 +1,5 @@
+name: 'Dotnet Docker Action'
+description: 'sample dotnet based action'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
