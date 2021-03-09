@@ -1,5 +1,5 @@
 #!/bin/sh -l
 
 pwd
-ls
+ls /
 dotnet /dotnet-xplat-action.dll
